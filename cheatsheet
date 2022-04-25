@@ -1,0 +1,22 @@
+en css .p equivale a selector class
+CSS y selectores
+class=salames .salames
+id=quesos #quesos
+*{
+
+}=selector universal para todo el css
+como anclar a los hijos de un elemento
+.logo a{
+
+}=seleccionaria a todo lo nesteado dentro de logo
+<li><a href="../CSS/index.css"</li>    
+</ul>
+<!--para linkear desde web-->
+USAR GITBASH O POWERSHELL CON TERMINAL  :
+DIR =directorio
+cd=change directory
+..=retroceder un paso atras ej: cd..
+meterse en una carpeta, poner git init crea un repositorio dentro de la carpeta
+git add .
+git status corrobora los archivos y su seguimiento
+git commit -m "leyenda"
