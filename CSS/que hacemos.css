@@ -1,8 +1,8 @@
 *{
 font-family:'Bebas Neue',cursive;
 font-size: 20px;
-margin: 0px;
-padding: 0%;
+margin: 0;
+padding: 0;
 }
 html{
 font-family:'Bebas Neue',cursive;    
@@ -11,14 +11,15 @@ font-family:'Bebas Neue',cursive;
 background-color: black;  
 }
 nav li{
-    display:inline-block;
+        display:inline-block;
         width:10%;
         padding:5px 10px;
         background-color:gray;
-        border:1px solid #000;
+        border:2px solid red;
         text-align:center;
         color:azure;
-        text-decoration: none;     
+        text-decoration: none;
+        border-radius:8%;     
     }
     nav li:hover{
     background-color:#121312;
@@ -28,7 +29,13 @@ nav li{
     color:red;
     text-decoration: none;      
     }
-.orderedList{
+.main{
+display: grid;
+
+}
+
+
+    .orderedList{
 color: azure;
 font-weight: 300;
 }
@@ -46,11 +53,11 @@ display: inline-block;
 overflow: hidden;
 margin: 5px 10px;    
 }
-.guts{
-height: 100%; 
-width:100%;
-left: 0px;
-top: 0px;
+.imagenes{
+display:inline-flex;
+justify-content: space-around;
+position: relative;
+
 
 }
 .strong{
@@ -60,20 +67,38 @@ color: red;
 color: azure;    
 }
 .email{
-color: black;   
+color: black;
+border-radius: 3px;
+border-color: red;   
 }
 .submit{
 background-color: black;
-color: azure;    
+color: azure;
+border-color: red;
+border-radius: 2px;   
 }
 footer{
-    background-color:#30302f;    
-    }
+background-color:#30302f;    
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+.ubicacion{
+    margin: 5px;
+    height: fit-content;
+    width:fit-content;    
+}
 .footerTitle{
     color: azure;
 }
 .footerLink{
-color: red;   
+color: red;
+text-decoration: none;
+padding: 5px;   
+}
+.footerLink:hover{
+color: purple;    
 }
 .copyrights{
 color: azure;   

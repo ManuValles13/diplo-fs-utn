@@ -1,25 +1,27 @@
 *{
 font-family: 'Bebas Neue', cursive;
 font-size: 20px;
-margin: 0px;
-padding: 0%;     
+margin: 0;
+padding: 0;     
 }
 html{
     font-family:'Bebas Neue',cursive;    
     }
 .body{
-background-color: black; 
-color: azure;    
+background-color: black;    
 }
 nav li{
     display:inline-block;
     width:10%;
     padding:5px 10px;
     background-color:gray;
-    border:1px solid #000;
+    border: 2px solid red;
     text-align:center;
     color:azure;
     text-decoration: none;
+    justify-content: space-around;
+    position: relative;
+    border-radius:8%;
 }
 nav li:hover{
 background-color:#121312;
@@ -34,21 +36,38 @@ font-size: large;
 color: aliceblue;    
 }
 .Paragraph{
-color: azure;    
+color: azure; 
+display: flex;   
 }
 .header1{
 font-size:xx-large;
 color: azure;
 font-family: 'Bebas Neue', cursive;
 }
+.video{
+width:auto;
+height: auto;}
 footer{
 background-color:#30302f;    
+display:flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
+.ubicacion{
+    margin: 5px;
+    height: fit-content;
+    width:fit-content;    
+    }
 .footerTitle{
     color: azure;
 }
 .footerLink{
 color: red;   
+text-decoration: none;
+}
+.footerLink:hover{
+color: purple;      
 }
 .copyrights{
 color: azure;   

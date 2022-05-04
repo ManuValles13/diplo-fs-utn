@@ -12,6 +12,18 @@ como anclar a los hijos de un elemento
 <li><a href="../CSS/index.css"</li>    
 </ul>
 <!--para linkear desde web-->
+medidas de devices 
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap// 
+Small devices (landscape phones, 576px and up)@media (min-width: 576px) { ... }
+// Medium devices (tablets, 768px and up)@media (min-width: 768px) { ... }
+// Large devices (desktops, 992px and up)@media (min-width: 992px) { ... }
+// X-Large devices (large desktops, 1200px and up)@media (min-width: 1200px) { ... }
+// XX-Large devices (larger desktops, 1400px and up)@media (min-width: 1400px) 
+
+
+
+
 USAR GITBASH O POWERSHELL CON TERMINAL  :
 DIR =directorio
 cd=change directory
@@ -20,3 +32,4 @@ meterse en una carpeta, poner git init crea un repositorio dentro de la carpeta
 git add .
 git status corrobora los archivos y su seguimiento
 git commit -m "leyenda"
+pit push-u origin master
