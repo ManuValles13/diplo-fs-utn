@@ -17,22 +17,29 @@ color: azure;
 }
 nav li{
     display:inline-block;
-        width:10%;
+        width:auto;
+        height: auto;
+        
         padding:5px 10px;
         background-color:gray;
         border:2px solid red;
-        text-align:center;
+        text-align:justify;
+        justify-items:center;
         color:azure;
         text-decoration: none;
         border-radius:8%;
         }
+.background{
+background-color: whitesmoke;    
+}        
 nav li:hover{
 background-color:#121312;
-color:#000;
+color:red;
  }
 .links{
 color:red;
-text-decoration: none;    
+text-decoration: none;
+margin: 0em 1em;    
 }
 .h1{
 color: azure;   
@@ -58,6 +65,7 @@ text-decoration: none;
 }
 .footerLink:hover{
 color: purple;    
+opacity: 0.7;
 }
 .copyrights{
 color: azure;

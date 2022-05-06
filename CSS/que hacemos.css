@@ -1,105 +1,152 @@
 *{
-font-family:'Bebas Neue',cursive;
-font-size: 20px;
-margin: 0;
-padding: 0;
-}
-html{
-font-family:'Bebas Neue',cursive;    
+    font-family:'Bebas Neue',cursive;
+    font: size 40px;
+    margin: 0;
+    padding: 0;
 }
 .body{
-background-color: black;  
+    background-color: black;
 }
-nav li{
-        display:inline-block;
-        width:10%;
-        padding:5px 10px;
-        background-color:gray;
-        border:2px solid red;
-        text-align:center;
-        color:azure;
-        text-decoration: none;
-        border-radius:8%;     
-    }
-    nav li:hover{
-    background-color:#121312;
-    color:#000;
-    }
-    .links{
-    color:red;
-    text-decoration: none;      
-    }
-.main{
-display: grid;
-
-}
-
-
-    .orderedList{
-color: azure;
-font-weight: 300;
-}
-.header{
-    font-size:xx-large;
-    color: azure;
-    font-family: 'Bebas Neue', cursive;
-    }
-.paragraph{
-color: azure;
-height: 200px;
-width: 300px;
-left: 30px;
-display: inline-block;
-overflow: hidden;
-margin: 5px 10px;    
-}
-.imagenes{
-display:inline-flex;
-justify-content: space-around;
-position: relative;
-
-
-}
-.strong{
+.navbar{
+background-color: azure;
+color: red;   
+}    
+.index{
 color: red;
+font-size:50px;
 }
-.form{
-color: azure;    
+
+.active{
+color: black;  
+font-size: 25px;
 }
-.email{
-color: black;
-border-radius: 3px;
-border-color: red;   
+.navbar-toggler{
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
-.submit{
+.ul:hover{
+color: red;    
+}
+.me-2{
+border-radius: 7%;
+}
+.btn{
 background-color: black;
 color: azure;
+border-radius: 10%;
 border-color: red;
-border-radius: 2px;   
+border-width:3.5px;
 }
-footer{
-background-color:#30302f;    
-display:flex;
+.btn:hover{
+border-color: black;
+background-color: red;
+color:azure    
+}
+.whatsapp:hover{
+    color: purple;    
+    opacity: 0.7;
+}
+.header{
+color: red;
+margin-top: 1%;
+font-size:  30px;    
+}
+.paragraph{
+display:inline-flex;
 flex-direction: row;
-justify-content: center;
-align-items: center;
+flex-wrap: wrap;
+color: azure;
+height:auto;
+width: 30%;
+font-size: large;
+margin: 1em;
+
+}
+.hr{
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    width: 30%;    
+}
+.hr2{
+    border-top: 8px solid #bbb;
+    border-radius: 5px;
+    width: 60%;    
+}
+.card-text{
+color: black;
+font-size: 20px;
+}
+.libros{
+display:flex;  
+flex-direction:row; 
+justify-content:space-evenly;
+}
+.footer{
+    background-color:#30302f;  
+    color: azure;  
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;    
 }
 .ubicacion{
     margin: 5px;
     height: fit-content;
     width:fit-content;    
 }
-.footerTitle{
-    color: azure;
+.footerColumn{
+display: flex;
+flex-direction:column;
+flex-wrap: wrap;
 }
 .footerLink{
-color: red;
-text-decoration: none;
-padding: 5px;   
+    color: red;
+    text-decoration: none;    
 }
 .footerLink:hover{
-color: purple;    
-}
+    color: black;    
+    opacity: 0.7;
+    }
 .copyrights{
-color: azure;   
+color: azure; 
+display: flex;
+margin: 1em;
+flex-direction: column; 
+flex-wrap: nowrap;   
+}
+.email{
+display: inline-flex;    
+}
+.submit{
+    background-color: black;
+    color: azure;
+    border-radius: 10%;
+    border-color: red;
+    border-width:3.5px;
+    margin-left:1em;
+}
+.span{
+color: black;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+
+
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+  
+}
+@media (min-width: 992px) {
+
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 1400px) {
+
 }
